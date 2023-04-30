@@ -4,7 +4,7 @@ import (
 	"time"
 )
 
-type auditEvent struct {
+type AuditEvent struct {
 	timestamp time.Time `json:"timestamp"`
 	message   string    `json:"message"`
 }
